@@ -833,6 +833,13 @@ body {
         border-radius: 50%;
         border: 3px solid #fff; }
 
+.delivery-text {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: #fff; }
+  .delivery-text__title {
+    margin-bottom: 25px; }
+
 @media (max-width: 1198.98px) {
   body {
     background: #292929; } }
