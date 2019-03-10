@@ -1,0 +1,89 @@
+@charset "UTF-8";
+.main {
+  border-bottom: 1px solid darkgrey; }
+  .main-orderPhone {
+    text-align: right;
+    margin-right: -27px; }
+    .main-orderPhone a {
+      text-decoration: underline;
+      color: #ff3469;
+      font-size: 16px;
+      font-weight: 400;
+      /* Text style for "Заказать з" */
+      letter-spacing: 0.18px; }
+      .main-orderPhone a:hover {
+        color: #ff1844;
+        text-decoration: none; }
+  .main-title {
+    text-align: center;
+    margin-top: 108px;
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+    /* Text style for "Эксклюзивн" */
+    letter-spacing: 0.1px; }
+  .main-desc {
+    text-align: center;
+    width: 552px;
+    margin: 0 auto;
+    margin-top: 19px;
+    color: darkgrey;
+    font-family: "Gotham Pro";
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* Text style for "п, ервая в" */
+    font-family: "Gotham Pro Light";
+    font-weight: 300;
+    line-height: 23px; }
+  .main-slider {
+    margin-top: 100px; }
+    .main-slider-img {
+      cursor: pointer; }
+      .main-slider-img img {
+        margin: 0 auto; }
+      .main-slider-img:hover::before {
+        content: '';
+        z-index: -1;
+        position: absolute;
+        width: 95px;
+        height: 100px;
+        margin-left: 20px;
+        background-image: url(../img/main/bg.png); }
+    .main-slider .slider-arrow_right {
+      margin-right: -15px; }
+    .main-slider .slider-arrow_left {
+      margin-left: -15px; }
+  .main-offer {
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.19px;
+    padding-top: 69px;
+    padding-bottom: 30px; }
+  .main-button {
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    padding: 22px 65px;
+    background-color: #ff2e55;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    /* Text style for "З, аказать" */
+    letter-spacing: 0.18px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 77px; }
+    .main-button:hover {
+      outline: none;
+      border: none;
+      background-color: #ff1844; }
+
+.brand {
+  display: block; }

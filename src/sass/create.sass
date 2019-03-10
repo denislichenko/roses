@@ -1,0 +1,113 @@
+.create
+  text-align: center
+  padding-bottom: 68px
+  &-title
+    margin-top: 84px
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Gotham Pro Medium";
+    /* Text style for "С, обери с" */
+    letter-spacing: 0.3px;
+    &_red 
+      color: #ff1844;
+  &-subtitle
+    margin-top: 8px
+    margin-bottom: 77px
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    /* Text style for "Выберите ж" */
+    letter-spacing: 0.18px;
+  /* ITEM */
+  &-item
+    border: 3px solid #fff
+    color: #ffffff;
+    margin-bottom: 25px
+    &__img
+      padding-top: 33px
+      padding-bottom: 15px
+    &__title
+      font-family: "Gotham Pro Medium";
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: uppercase;
+      /* Text style for "Р, озы" */
+      letter-spacing: 0.2px;
+      padding-bottom: 5px
+    &__colors
+      width: 140px
+      display: flex
+      margin: 0 auto
+      justify-content: space-between
+      padding-bottom: 10px
+    &__choose
+      padding-bottom: 5px
+    &__count
+      padding-bottom: 6px
+    &__count-i
+      width: 85px
+      display: flex
+      margin: 0 auto
+      justify-content: space-between
+      &_minus
+        margin-right: 5px
+      &_plus
+        margin-left: 5px
+      & a
+        color: #fff
+        padding: 10px 0
+        &:hover
+         color: #fff
+         text-decoration: none
+      &_value
+        padding: 6px 10px
+        border: 3px solid #fff
+        margin-bottom: 20px
+    &_button
+      margin-bottom: 27px
+      padding: 9px 27px
+      background: #f24841
+      color: #fff
+      border: none
+      outline: none
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      /* Text style for "в,  корзин" */
+      letter-spacing: 0.14px;
+      cursor: pointer
+      &:hover
+       background: darken(#f24841, 5%)
+  &-all
+    display: block
+    margin-top: 9px
+    color: #f24841;
+    text-decoration: underline
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "Все цветы" */
+    letter-spacing: 0.14px;
+    &:hover
+     text-decoration: none
+     color: #f24841;
+.none-decoration
+  text-decoration: none 
+  padding-left: 10px
+/* colors */
+.color
+  height: 20px
+  width: 20px
+  cursor: pointer
+  &-white 
+    background: #fff
+  &-orange
+    background: #f7b496
+  &-pink
+    background: #ed366e
+  &-red
+    background: #ff0000
+  &-blue
+    background: #12129d

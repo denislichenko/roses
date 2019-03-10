@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.questions {
+  padding-top: 85px;
+  padding-bottom: 75px;
+  background: #1a1a1a;
+  color: #fff;
+  text-align: center; }
+  .questions-title {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    /* Text style for "О, СТАЛИСЬ" */
+    letter-spacing: 0.3px; }
+    .questions-title-2 {
+      margin-top: 7px; }
+      .questions-title-2 a {
+        color: #fff; }
+        .questions-title-2 a:hover {
+          text-decoration: none;
+          color: #d9d9d9; }
+  .questions hr {
+    margin-top: 1px;
+    width: 689px;
+    background-color: #fff; }
+  .questions-small {
+    margin-top: 49px;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "и, ли позв" */
+    letter-spacing: 0.14px; }
+  .questions-phone {
+    margin-top: 5px;
+    font-size: 36px;
+    font-weight: 400;
+    /* Text style for "8 (800) 65" */
+    letter-spacing: 0.36px; }
+    .questions-phone a {
+      color: #fff; }
+      .questions-phone a:hover {
+        text-decoration: none;
+        color: #d9d9d9; }

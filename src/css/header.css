@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+  height: 1200px;
+  background: #292929 url(../img/main-bg.jpg) no-repeat; }
+
+.header {
+  margin: 0;
+  margin-top: 30px;
+  height: 56px;
+  background: #292929; }
+  .header-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    color: white; }
+  .header-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  .header-right {
+    margin-top: 3px;
+    margin-right: -27px; }
+  .header-logo {
+    max-width: 155px;
+    max-height: 40px;
+    margin-top: 15px; }
+  .header-text {
+    margin-left: 40px;
+    padding-top: 11px;
+    max-width: 129px;
+    color: darkgrey;
+    font-size: 12px;
+    font-weight: 300;
+    /* Text style for "И, нтернет" */
+    font-family: "Gotham Pro Light";
+    text-align: left;
+    line-height: 16px; }
+  .header-phone {
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 20px;
+    font-weight: 500;
+    /* Text style for "8 (800) 65" */
+    letter-spacing: 0.2px; }
+    .header-phone a {
+      color: #fff; }
+      .header-phone a:hover {
+        text-decoration: none;
+        color: #f2f2f2; }
+    .header-phone__sm {
+      color: darkgrey;
+      font-family: "Gotham Pro";
+      font-size: 12px;
+      font-weight: 400;
+      /* Text style for "З, вонок п" */
+      letter-spacing: 0.12px; }
+
+.pink-text {
+  color: #ff3469;
+  font-family: "Gotham Pro Medium";
+  font-weight: 500; }

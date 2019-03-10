@@ -1,0 +1,89 @@
+@charset "UTF-8";
+.feedback-title {
+  font-family: "Gotham Pro Medium";
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  /* Text style for "М, ы делае" */
+  letter-spacing: 0.3px;
+  margin-top: 87px;
+  margin-bottom: 95px; }
+
+.feedback-item__image {
+  height: 220px;
+  width: 220px;
+  border-radius: 5px;
+  background: url(../img/feedback/feedback.png) no-repeat center;
+  position: relative;
+  z-index: 2; }
+  .feedback-item__image::before {
+    border-radius: 109px;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1; }
+  .feedback-item__image-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 220px;
+    color: #fff;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .feedback-item__image-title {
+    font-size: 20px;
+    font-weight: 500;
+    /* Text style for "Алиса Иван" */
+    font-family: "Gotham Pro Medium";
+    font-weight: 500;
+    letter-spacing: 0.2px; }
+  .feedback-item__image-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.18px; }
+
+.feedback-item_content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.feedback-item__text {
+  width: 480px; }
+  .feedback-item__text p {
+    color: #fff;
+    font-family: "Gotham Pro";
+    font-size: 18px;
+    font-weight: 400;
+    /* Text style for "Я,  очень" */
+    letter-spacing: 0.18px; }
+  .feedback-item__text a {
+    text-decoration: underline;
+    color: #f24841;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.18px; }
+    .feedback-item__text a:hover {
+      text-decoration: none; }

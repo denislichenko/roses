@@ -1,0 +1,48 @@
+.contacts
+  background: #292929
+  color: #fff
+  padding-top: 29px
+  padding-bottom: 39px
+  &-content
+    display: flex
+    justify-content: space-between
+  &-right
+    margin-top: 20px
+    margin-right: -15px
+  &-left
+    margin-left: -15px
+  &-small
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "Отдел обсл" */
+    letter-spacing: 0.14px;
+  &-phone
+    & a
+      font-size: 24px;
+      font-weight: 500;
+      /* Text style for "8 (800) 65" */
+      letter-spacing: 0.24px;
+      color: #fff
+      &:hover
+        text-decoration: none
+        color: darken(#fff, 15%)
+  &-menu ul li
+    margin-bottom: 20px
+    float: left
+    & a
+      font-size: 18px;
+      font-weight: 500;
+      /* Text style for "Д, ОСТАВКА" */
+      letter-spacing: 0.18px;
+      text-transform: uppercase
+      text-decoration: underline
+      font-family: "Gotham Pro Medium"
+      color: #fff
+      &:hover
+       text-decoration: none
+    &:last-child
+     padding-left: 25px
+.small-bottom
+  text-align: right
+.vk-img
+  padding-left: 15px

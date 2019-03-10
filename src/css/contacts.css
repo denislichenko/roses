@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.contacts {
+  background: #292929;
+  color: #fff;
+  padding-top: 29px;
+  padding-bottom: 39px; }
+  .contacts-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .contacts-right {
+    margin-top: 20px;
+    margin-right: -15px; }
+  .contacts-left {
+    margin-left: -15px; }
+  .contacts-small {
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "Отдел обсл" */
+    letter-spacing: 0.14px; }
+  .contacts-phone a {
+    font-size: 24px;
+    font-weight: 500;
+    /* Text style for "8 (800) 65" */
+    letter-spacing: 0.24px;
+    color: #fff; }
+    .contacts-phone a:hover {
+      text-decoration: none;
+      color: #d9d9d9; }
+  .contacts-menu ul li {
+    margin-bottom: 20px;
+    float: left; }
+    .contacts-menu ul li a {
+      font-size: 18px;
+      font-weight: 500;
+      /* Text style for "Д, ОСТАВКА" */
+      letter-spacing: 0.18px;
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-family: "Gotham Pro Medium";
+      color: #fff; }
+      .contacts-menu ul li a:hover {
+        text-decoration: none; }
+    .contacts-menu ul li:last-child {
+      padding-left: 25px; }
+
+.small-bottom {
+  text-align: right; }
+
+.vk-img {
+  padding-left: 15px; }

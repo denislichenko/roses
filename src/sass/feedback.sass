@@ -1,0 +1,72 @@
+.feedback
+  &-title
+    font-family: "Gotham Pro Medium";
+    text-align: center
+    color: #fff
+    font-size: 30px;
+    text-transform: uppercase;
+    /* Text style for "М, ы делае" */
+    letter-spacing: 0.3px;
+    margin-top: 87px
+    margin-bottom: 95px
+  &-item__image
+    height: 220px
+    width: 220px
+    border-radius: 5px
+    background: url(../img/feedback/feedback.png) no-repeat center
+    position: relative
+	   z-index: 2
+	   &::before
+      border-radius: 109px
+      content: ''
+      display: block
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+      background-color: rgba(0, 0, 0, 0.6)
+      z-index: -1
+    &-text
+      display: flex
+      height: 220px
+      color: #fff
+      justify-content: center;
+      align-content: space-between;
+      align-items: center;
+      flex-direction: column;
+    &-title
+      font-size: 20px;
+      font-weight: 500;
+      /* Text style for "Алиса Иван" */
+      font-family: "Gotham Pro Medium";
+      font-weight: 500;
+      letter-spacing: 0.2px;
+    &-subtitle
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.18px;
+  &-item 
+    &_content
+      max-width: 800px
+      margin: 0 auto
+      display: flex
+      align-items: center
+      justify-content: space-around
+    &__text
+      width: 480px
+      & p
+        color: #fff
+        font-family: "Gotham Pro";
+        font-size: 18px;
+        font-weight: 400;
+        /* Text style for "Я,  очень" */
+        letter-spacing: 0.18px;
+      & a
+        text-decoration: underline
+        color: #f24841;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.18px;
+        &:hover
+          text-decoration: none

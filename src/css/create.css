@@ -1,0 +1,124 @@
+@charset "UTF-8";
+.create {
+  text-align: center;
+  padding-bottom: 68px;
+  /* ITEM */ }
+  .create-title {
+    margin-top: 84px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Gotham Pro Medium";
+    /* Text style for "С, обери с" */
+    letter-spacing: 0.3px; }
+    .create-title_red {
+      color: #ff1844; }
+  .create-subtitle {
+    margin-top: 8px;
+    margin-bottom: 77px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    /* Text style for "Выберите ж" */
+    letter-spacing: 0.18px; }
+  .create-item {
+    border: 3px solid #fff;
+    color: #ffffff;
+    margin-bottom: 25px; }
+    .create-item__img {
+      padding-top: 33px;
+      padding-bottom: 15px; }
+    .create-item__title {
+      font-family: "Gotham Pro Medium";
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: uppercase;
+      /* Text style for "Р, озы" */
+      letter-spacing: 0.2px;
+      padding-bottom: 5px; }
+    .create-item__colors {
+      width: 140px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding-bottom: 10px; }
+    .create-item__choose {
+      padding-bottom: 5px; }
+    .create-item__count {
+      padding-bottom: 6px; }
+    .create-item__count-i {
+      width: 85px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .create-item__count-i_minus {
+        margin-right: 5px; }
+      .create-item__count-i_plus {
+        margin-left: 5px; }
+      .create-item__count-i a {
+        color: #fff;
+        padding: 10px 0; }
+        .create-item__count-i a:hover {
+          color: #fff;
+          text-decoration: none; }
+      .create-item__count-i_value {
+        padding: 6px 10px;
+        border: 3px solid #fff;
+        margin-bottom: 20px; }
+    .create-item_button {
+      margin-bottom: 27px;
+      padding: 9px 27px;
+      background: #f24841;
+      color: #fff;
+      border: none;
+      outline: none;
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      /* Text style for "в,  корзин" */
+      letter-spacing: 0.14px;
+      cursor: pointer; }
+      .create-item_button:hover {
+        background: #f03129; }
+  .create-all {
+    display: block;
+    margin-top: 9px;
+    color: #f24841;
+    text-decoration: underline;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "Все цветы" */
+    letter-spacing: 0.14px; }
+    .create-all:hover {
+      text-decoration: none;
+      color: #f24841; }
+
+.none-decoration {
+  text-decoration: none;
+  padding-left: 10px; }
+
+/* colors */
+.color {
+  height: 20px;
+  width: 20px;
+  cursor: pointer; }
+  .color-white {
+    background: #fff; }
+  .color-orange {
+    background: #f7b496; }
+  .color-pink {
+    background: #ed366e; }
+  .color-red {
+    background: #ff0000; }
+  .color-blue {
+    background: #12129d; }

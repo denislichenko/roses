@@ -1,0 +1,56 @@
+@charset "UTF-8";
+.footer {
+  margin: 0;
+  height: 130px;
+  background: #fff; }
+  .footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 130px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    color: white; }
+  .footer-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: -20px;
+    margin-top: 23px; }
+  .footer-right {
+    margin-right: -20px; }
+  .footer-logo {
+    max-width: 155px;
+    max-height: 40px; }
+  .footer-text {
+    margin-left: 50px;
+    max-width: 129px;
+    color: darkgrey;
+    font-size: 12px;
+    font-weight: 300;
+    /* Text style for "И, нтернет" */
+    font-family: "Gotham Pro Light";
+    text-align: left;
+    line-height: 16px; }
+  .footer-design {
+    color: #101010; }
+
+.designer-name {
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: underline; }

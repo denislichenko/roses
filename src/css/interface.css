@@ -1,0 +1,40 @@
+body {
+  font-family: "Gotham Pro"; }
+
+.attention-word {
+  color: #fff;
+  font-family: "Gotham Pro Medium";
+  font-weight: 500;
+  letter-spacing: 0.18px; }
+
+.slider-arrow {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 22px;
+  z-index: 99; }
+  .slider-arrow_prod {
+    background: #fff;
+    border: 1px solid #ff9d00; }
+  .slider-arrow:hover {
+    cursor: pointer; }
+  .slider-arrow_right {
+    right: 0;
+    background: url(../img/arrow-right.png) center no-repeat; }
+    .slider-arrow_right:hover {
+      background: url(../img/arrow-right_active.png) center no-repeat; }
+  .slider-arrow_left {
+    left: 0;
+    background: url(../img/arrow-left.png) center no-repeat; }
+    .slider-arrow_left:hover {
+      background: url(../img/arrow-left_active.png) center no-repeat; }
+  .slider-arrow_bright {
+    right: 0;
+    background: url(../img/bigarrow-right.png) center no-repeat; }
+    .slider-arrow_bright:hover {
+      background: url(../img/bigarrow-right_active.png) center no-repeat; }
+  .slider-arrow_bleft {
+    left: 0;
+    background: url(../img/bigarrow-left.png) center no-repeat; }
+    .slider-arrow_bleft:hover {
+      background: url(../img/bigarrow-left_active.png) center no-repeat; }

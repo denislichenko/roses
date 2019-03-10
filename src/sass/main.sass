@@ -1,0 +1,92 @@
+.main 
+  border-bottom: 1px solid darkgrey
+  &-orderPhone
+    text-align: right
+    margin-right: -27px
+    & a
+      text-decoration: underline
+      color: #ff3469;
+      font-size: 16px;
+      font-weight: 400;
+      /* Text style for "Заказать з" */
+      letter-spacing: 0.18px;
+      &:hover
+       color: #ff1844
+       text-decoration: none
+  &-title
+    text-align: center
+    margin-top: 108px
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+    /* Text style for "Эксклюзивн" */
+    letter-spacing: 0.1px;
+  &-desc
+    text-align: center
+    width: 552px;
+    margin: 0 auto
+    margin-top: 19px
+    color: darkgrey;
+    font-family: "Gotham Pro";
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* Text style for "п, ервая в" */
+    font-family: "Gotham Pro Light";
+    font-weight: 300;
+    line-height: 23px
+  &-slider
+    margin-top: 100px
+    &-img
+      //max-width: 90px
+      //max-height: 70px
+      //margin-left: 20px
+      cursor: pointer
+      & img
+        margin: 0 auto
+      &:hover
+        &::before
+         content: ''
+         z-index: -1
+         position: absolute
+         width: 95px
+         height: 100px
+         margin-left: 20px 
+         background-image: url(../img/main/bg.png)
+    & .slider-arrow
+        &_right
+          margin-right: -15px
+        &_left
+          margin-left: -15px
+  &-offer
+    color: #fff
+    text-align: center
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.19px;
+    padding-top: 69px
+    padding-bottom: 30px
+  &-button
+    display: block
+    margin: 0 auto
+    outline: none
+    border: none
+    padding: 22px 65px
+    background-color: #ff2e55
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    /* Text style for "З, аказать" */
+    letter-spacing: 0.18px;
+    color: white
+    cursor: pointer
+    margin-bottom: 77px 
+    &:hover
+     outline: none
+     border: none 
+     background-color: #ff1844
+.brand
+  display: block
